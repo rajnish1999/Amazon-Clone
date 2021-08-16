@@ -16,16 +16,16 @@ function Home() {
                 <div className="home__row">
                     <Product
                         id="1" 
-                        title="The lean startup"
-                        price={29.29}
+                        title="Iphone 12"
+                        price={100}
                         image="https://picsum.photos/id/111/367/267"
                         rating={5}
                     />
                     <Product 
                         id="2" 
-                        title="The lean startup"
-                        price={29.29}
-                        image="https://picsum.photos/id/111/367/267"
+                        title="Samsung Galaxy"
+                        price={200}
+                        image="https://picsum.photos/id/1051/367/267"
                         rating={5}
                     />
                 </div>
@@ -33,23 +33,23 @@ function Home() {
                 <div className="home__row">
                     <Product 
                         id="3" 
-                        title="The lean startup"
-                        price={29.29}
-                        image="https://picsum.photos/id/111/367/267"
+                        title="Apple TV"
+                        price={300}
+                        image="https://picsum.photos/id/1026/367/267"
                         rating={5}
                     />
                     <Product 
                         id="4" 
-                        title="The lean startup"
-                        price={29.29}
-                        image="https://picsum.photos/id/111/367/267"
+                        title="MI Remote"
+                        price={400}
+                        image="https://picsum.photos/id/1029/367/267"
                         rating={5}
                     />
                     <Product 
                         id="5" 
-                        title="The lean startup"
-                        price={29.29}
-                        image="https://picsum.photos/id/111/367/267"
+                        title="Voltas AC"
+                        price={500}
+                        image="https://picsum.photos/id/1032/367/267"
                         rating={5}
                     />
                 </div>
@@ -57,9 +57,9 @@ function Home() {
                 <div className="home__row">
                     <Product 
                         id="6" 
-                        title="The lean startup"
-                        price={29.29}
-                        image="https://picsum.photos/id/111/367/267"
+                        title="Redmi Note 8"
+                        price={600}
+                        image="https://picsum.photos/id/113/367/267"
                         rating={5}
                     />
                 </div>
