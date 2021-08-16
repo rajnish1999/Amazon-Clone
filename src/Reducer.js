@@ -20,6 +20,7 @@ const reducer = (state, action) => {
                 console.warn(
                     `Cant remove product (id: ${action.id})`
                 )
+                
             }
             return {
                 ...state,
