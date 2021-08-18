@@ -15,6 +15,7 @@ function Home() {
 
                 <div className="home__row">
                     <Product
+                        key={1}
                         id="1" 
                         title="Iphone 12"
                         price={100}
@@ -22,6 +23,7 @@ function Home() {
                         rating={5}
                     />
                     <Product 
+                        key={11}
                         id="2" 
                         title="Samsung Galaxy"
                         price={200}
@@ -31,7 +33,8 @@ function Home() {
                 </div>
 
                 <div className="home__row">
-                    <Product 
+                    <Product
+                        key={111} 
                         id="3" 
                         title="Apple TV"
                         price={300}
@@ -39,6 +42,7 @@ function Home() {
                         rating={5}
                     />
                     <Product 
+                        key={1111}
                         id="4" 
                         title="MI Remote"
                         price={400}
@@ -46,6 +50,7 @@ function Home() {
                         rating={5}
                     />
                     <Product 
+                        key={11111}
                         id="5" 
                         title="Voltas AC"
                         price={500}
@@ -56,6 +61,7 @@ function Home() {
 
                 <div className="home__row">
                     <Product 
+                        key={111111}
                         id="6" 
                         title="Redmi Note 8"
                         price={600}
