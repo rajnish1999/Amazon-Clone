@@ -27,3 +27,6 @@ rough.js
 /build
 firebase.json
 .firebaserc
+/.firebase
+/server
+
