@@ -1,10 +1,11 @@
 import React,{ useState, useEffect } from 'react'
 
-import './Order.css';
+import './Orders.css';
 import { useStateValue } from './StateProvider';
 import { db } from './firebase'
+import Order from './Order';
 
-function Order() {
+function Orders() {
     const [{ basket, user }, dispatch] = useStateValue();
     const [orders, setOrders] = useState([]);
 
@@ -24,7 +25,6 @@ useEffect(() => {
         setOrders([])
     }
 }, [user])
-console.log(orders.length)
     return (
         <div className="orders">
             <h1>your orders</h1>
@@ -32,8 +32,7 @@ console.log(orders.length)
             <div className='orders__order'>
                 
                 {orders?.map((order) => (
-                    // <Order order={order} />
-                    <p>hello</p>
+                    <Order order={order} />
                 ))}
             </div>
         </div>
@@ -41,4 +40,4 @@ console.log(orders.length)
 }
 
 
-export default Order
+export default Orders
