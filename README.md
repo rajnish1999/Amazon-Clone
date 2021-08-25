@@ -1,7 +1,7 @@
 # Amazon_Clone
 
 ## Description 
-It is a replica of amazon website, where
+It is a replica of amazon website.
 
 ## Live Demo
 [Click here to open the live demo](https://clone-ca516.web.app/)
